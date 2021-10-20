@@ -1,0 +1,34 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background: var(--bg-gradient);
+}
+
+.about .subContent {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80vw;
+    color: var(--text-color);
+    padding: 4rem;
+    
+}
+
+.about .subContent .text strong {
+    font-size: xx-large;
+}
+
+.about .subContent .text  {
+    font-size: x-large;
+    padding-bottom: 1rem;
+    margin-left: 15%;
+}
+
+
+.about .subContent .material-icons {
+    font-size: 12rem;   
+}

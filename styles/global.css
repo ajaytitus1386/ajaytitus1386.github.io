@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+:root {
+    --font-stack : 'Raleway', sans-serif;
+    --font-heading-stack : 'Staatliches', cursive;
+    --primary-color : #1f5673;
+    --primary-light-color : rgba(49,139,187,1);
+    --secondary-color : #ff7f11;
+    --text-color : #fff;
+    --header-gradient : linear-gradient(360deg, rgba(49,139,187,1) 25%, rgba(31,86,115,1) 100%);
+    --bg-gradient : linear-gradient(360deg, rgba(49,139,187,0.4) 25%, rgba(31,86,115,0.4) 100%);
+
+    --sub-heading-size : 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: var(--font-stack); 
+}
+
+.orange {
+    color: var(--secondary-color);
+    fill:  var(--secondary-color);
+}
+
+html,body {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background : var(--header-gradient);
+    color: var(--text-color);
+    
+}
+
+.header .headerItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 75% ;
+}
+
+.header .headerItems img {
+    border-radius: 1rem;
+    overflow: hidden;
+    max-height: 600px;
+    max-width: 800px;
+    margin: 1rem;
+}
+
+.header .headerItems p {
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.header .headerItems strong {
+    font-size: xx-large;
+    color: var(--secondary-color);
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background : var(--bg-gradient);
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    transition: ease-in-out 300ms;
+}
+
+.bg-img{
+    background: var(--bg-gradient), url('../images/lorenzo-moschi-XG391m6rH_8-unsplash.jpg') fixed;;
+}
+
+.bgToggle{
+    margin: 4rem;
+}
+
+.button{
+    background-color: lightsteelblue;
+    font-size: x-large;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    color: var(--text-color);
+    transition: ease-in-out 100ms;
+}
+
+.button:hover{
+    filter: brightness(0.9);
+    transform: scale(1.1);
+}
+
+.subHeading{
+    width: 100%;
+    font-size: var(--sub-heading-size);
+    background: rgba(49,139,187,0.3);
+    color: var(--text-color);
+    transition: ease-in-out 300ms;
+}
+.subHeading:hover{
+    color: var(--secondary-color);
+    background: rgba(49,139,187,0.8);
+}
+
+.subHeading strong {
+    margin-left: 12.5%;
+    font-family: var(--font-heading-stack);
+    letter-spacing: 5px;
+}
+
+
+

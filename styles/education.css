@@ -1,0 +1,33 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background: var(--bg-gradient);
+}
+
+.education .subContent {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80vw;
+    color: var(--text-color);
+    padding: 4rem;
+    
+}
+
+.education .subContent .text strong {
+    font-size: xx-large;
+}
+
+.education .subContent .text  {
+    font-size: x-large;
+    padding-bottom: 1rem;
+    margin-left: 15%;
+}
+
+.education .subContent .material-icons {
+    font-size: 12rem;   
+}
