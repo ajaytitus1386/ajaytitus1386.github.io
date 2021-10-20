@@ -7,4 +7,4 @@
 # Git Hub Pages Demo
 Set up for use in Digital Assignment of Internet and Web Programming Course
 
-<a href="https://ajaytitus1386.github.io">See how it turned out! </a>
+<a href="https://ajaytitus1386.github.io/index.html">See how it turned out! </a>
